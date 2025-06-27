@@ -4,9 +4,26 @@
     margin: 0;
     padding: 0;
 }
+.btn-container{
+    text-align: center;
+}
+.btn{
+    padding: 12px 16px 12px 16px;
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 600;
+line-height: 10px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 4px;
+background: rgb(82, 195, 3);
+border: none;
+cursor: pointer;
+}
 #hero{
-    height:432px;
-    width: 910px;
+    height: 496px;
+    width: 1040px;
     background-image: linear-gradient(0deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%),
      url("../assets/hero-bg.png");
     background-size: cover;
@@ -14,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 #hero .hero-content{
    width: 481px;
@@ -28,7 +46,7 @@ line-height: 38px;
 letter-spacing: 0%;
 text-align: center;
    opacity: 0.8;
-
+  margin-bottom: 8px;
 }
 #hero .hero-content .title{
     color: rgb(255, 255, 255);
@@ -38,6 +56,7 @@ font-weight: 700;
 line-height: 44px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 12px;
 }
 #hero .hero-content .description{
    color: rgb(255, 255, 255);
@@ -48,6 +67,68 @@ line-height: 14px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
+margin-bottom: 18px;
 }
 
+#card-box{
+    width: 713px;
+    margin: 90px auto;
+}
+
+#card-box .info{
+    
+}
+
+#card-box .info .title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 26px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+}
+.card-container{ 
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    font-family: Work Sans;
+
+}
+.card{
+    max-width: 216px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 216px;
+
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    padding: 7px 16px 7px 16px;
+    border-radius: 8px;
+
+background: rgba(82, 195, 3, 0.15);
+}
+    
+
+   
     
