@@ -22,8 +22,8 @@ border: none;
 cursor: pointer;
 }
 #hero{
-    height: 496px;
-    width: 1040px;
+    height: 432px;
+    width: 910px;
     background-image: linear-gradient(0deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%),
      url("../assets/hero-bg.png");
     background-size: cover;
